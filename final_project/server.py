@@ -17,6 +17,7 @@ def frenchToEnglish():
     return "Translated text to English"
 
 @app.route("/")
+@app.route("/index")
 def renderIndexPage():
     # Write the code to render template
 
